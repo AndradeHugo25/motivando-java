@@ -27,9 +27,13 @@
 	- sobrecarga de métodos
 	- exceções
 6. OO
-	- atributos (propriedades, características)
-	- métodos (comportamentos, ações)
-	- encapsulamento, polimorfismo, herança
+    - atributos (propriedades, características)
+    - métodos (comportamentos, ações)
+        - construtor, get e set
+    - encapsulamento, polimorfismo, herança
+    - static
+    - enum
+    - abstract, interface
 7. Interação com BD
 	- conexão
 	- select, update, delete

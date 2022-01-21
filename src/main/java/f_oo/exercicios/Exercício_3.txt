@@ -1,0 +1,65 @@
+BANCO
+
+Em um banco, para se cadastrar uma conta bancária, é necessário informar o número da conta, o nome do titular da conta,
+ e o valor de depósito inicial que o titular depositou ao abrir a conta.  Esse valor de delósito inicial, entretanto,
+ é opcional, ou seja: se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não
+  será feito e o saldo inicial da conta será, naturalmente, zero.
+
+Imortante: uma vez que uma conta vancária foi aberta, o número da conta nunca poderá ser alterado. Já o nome do titular
+pode ser alterado. Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um mecanismo para
+proteger isso. O saldo só aumenta por meio de depósitoc, e só diminui por meio de saques. Para cada saque realizado,
+ o banco cobra uma taxa de R$ 5,00. Nora: a conta pode ficar com saldo negativo se o saldo não for suficiente para
+  relalizar o saque e ou pagar a taxa. Você deve fazer um programa que realize o cadastro de uma conta, dando opção
+  para que seja ou não niformado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque,
+  sempre mostrando os dados da conta após cada operação.
+
+===========================================================================
+Exemplo 1:
+Entrar com o número da conta: 1010
+Entrar com o nome do titular da conta: Alex dos Santos
+Possui depósito inicial (S/N)? S
+Entrar com valor do depósito inicial: 500,00
+
+Dados da conta:
+Número da conta: 1010
+Titular da conta: Alex dos Santos
+Saldo da conta: 500,00
+
+Entrar com valor de depósito: 200,00
+
+Dados atualizados da conta:
+Número da conta: 1010
+Titular da conta: Alex dos Santos
+Saldo da conta: 700,00
+
+Entrar com o valor para saque: 300,00
+
+Dados atualizados da conta:
+Número da conta: 1010
+Titular da conta: Alex dos Santos
+Saldo da conta: 395,00
+
+=====================================================================================
+Exemplo 2:
+Entrar com o número da conta: 2020
+Entrar com o nome do titular da conta: Maria dos Santos
+Possui depósito inicial (S/N)? N
+
+Dados da conta:
+Número da conta: 2020
+Titular da conta: Maria dos Santos
+Saldo da conta: 0,00
+
+Entrar com valor de depósito: 200,00
+
+Dados atualizados da conta:
+Número da conta: 2020
+Titular da conta: Maria dos Santos
+Saldo da conta: 200,00
+
+Entrar com o valor para saque: 198,00
+
+Dados atualizados da conta:
+Número da conta: 2020
+Titular da conta: Maria dos Santos
+Saldo da conta: -3,00
