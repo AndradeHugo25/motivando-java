@@ -19,10 +19,11 @@
 	- escopos
 	- if aninhandos
 	- operador ternário
+	- switch
 3. Estruturas de repetição
 	- while, for, do while
 4. Vetores e Collections (lista, etc)
-	- matrizes, listas, map
+	- matrizes (curiosidade), listas, map
 5. Métodos
 	- sobrecarga de métodos
 	- exceções
