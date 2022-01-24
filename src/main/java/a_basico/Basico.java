@@ -8,6 +8,7 @@ public class Basico {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Digite bla bla bla:");
+
     }
 
 }

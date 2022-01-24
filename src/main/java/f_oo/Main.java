@@ -36,10 +36,10 @@ public class Main {
 
         imprimirBorboletas(borboletas);
 //
-        System.out.println();
-        b1.voar();
-        b2.voar();
-        b3.voar();
+//        System.out.println();
+//        b1.voar();
+//        b2.voar();
+//        b3.voar();
     }
 
     public static void imprimirBorboletas(ArrayList<Borboleta> bichinhas) {

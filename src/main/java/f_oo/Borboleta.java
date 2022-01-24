@@ -16,6 +16,11 @@ public class Borboleta extends Animal {
         this.estagio = Estagio.LARVA;
     }
 
+    public void incrementarIdade() {
+        super.incrementarIdade();
+        mudarEstagio();
+    }
+
     public void incrementarIdade(int anos) {
         super.incrementarIdade(anos);
         mudarEstagio();

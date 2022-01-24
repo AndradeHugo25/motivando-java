@@ -7,6 +7,7 @@
 	    - fortemente tipada
 	    - tipos: byte, short, int, long, float, double, char, boolean, String
 	    - declaração x atribuição, declaração múltipla
+	    - final
 	    - type casting
 	    - manipulação de texto
 	- Operadores
@@ -33,7 +34,7 @@
         - construtor, get e set
     - encapsulamento, polimorfismo, herança
     - static
-    - enum
+    - enum, lombok
     - abstract, interface
 7. Interação com BD
 	- conexão
