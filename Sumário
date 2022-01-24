@@ -32,9 +32,9 @@
     - atributos (propriedades, características)
     - métodos (comportamentos, ações)
         - construtor, get e set
-    - encapsulamento, polimorfismo, herança
+    - encapsulamento (lombok), polimorfismo, herança
     - static
-    - enum, lombok
+    - enum
     - abstract, interface
 7. Interação com BD
 	- conexão
