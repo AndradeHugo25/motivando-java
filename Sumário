@@ -6,16 +6,16 @@
 	- Variáveis
 	    - fortemente tipada
 	    - tipos: byte, short, int, long, float, double, char, boolean, String
+	    - manipulação de texto
 	    - declaração x atribuição, declaração múltipla
 	    - final
 	    - type casting
-	    - manipulação de texto
 	- Operadores
 	    - +, -, /, *, %
+	    - conversão na divisão
 	    - incremento: ++, --, +=, -=, etc
 	    - &, | e !
 	    - procedência (slide)
-	    - conversão na divisão
 2. Estruturas condicionais
 	- escopos
 	- if aninhandos
@@ -40,5 +40,6 @@
 	- conexão
 	- select, update, delete
 	- query fixa, query variável
+	-
 8. Interação com arquivos
 	- leitura, escrita

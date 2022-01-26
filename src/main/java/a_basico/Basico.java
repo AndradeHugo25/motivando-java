@@ -7,7 +7,10 @@ public class Basico {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite bla bla bla:");
+        System.out.println("Digite um numero:");
+        int idade = in.nextInt();
+
+        System.out.println();
 
     }
 
