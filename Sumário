@@ -40,6 +40,6 @@
 	- conexão
 	- select, update, delete
 	- query fixa, query variável
-	-
+	- model, repository
 8. Interação com arquivos
 	- leitura, escrita

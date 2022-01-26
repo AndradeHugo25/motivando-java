@@ -20,35 +20,33 @@ public class Main {
         ConexaoBD conexaoBD = new ConexaoBD();
         conexaoBD.conectarBanco();
 
-//        ResultSet resultSet = conexaoBD.select(QUERY_USUARIOS);
-//        while (resultSet.next()) {
-//            int id = Integer.parseInt(resultSet.getString(1));
-//            String nome = resultSet.getString(2);
-//
-//            System.out.print("ID=" + id);
-//            System.out.print(", NAME='" + nome + "'\n");
-//        }
+        ResultSet resultSet = conexaoBD.select(QUERY_USUARIOS);
+        while (resultSet.next()) {
+            int id = Integer.parseInt(resultSet.getString(1));
+            String nome = resultSet.getString(2);
+
+            System.out.print("ID=" + id);
+            System.out.print(", NAME='" + nome + "'\n");
+        }
 
 
-//        String[] valores = {"19"};
-//        Tipos[] tipos = {INTEGER};
-//
-//        resultSet = conexaoBD.select(valores, tipos, QUERY_USUARIO_POR_ID);
-//        resultSet.next();
-//
-//        int id = Integer.parseInt(resultSet.getString(1));
-//        String nome = resultSet.getString(2);
-//
-//        System.out.print("ID=" + id);
-//        System.out.print("NAME='" + nome + '");
+        String[] valores = {"19"};
+        Tipos[] tipos = {INTEGER};
 
+        resultSet = conexaoBD.select(valores, tipos, QUERY_USUARIO_POR_ID);
+        resultSet.next();
 
+        int id = Integer.parseInt(resultSet.getString(1));
+        String nome = resultSet.getString(2);
+
+        System.out.print("ID=" + id);
+        System.out.print(", NAME='" + nome + "'\n");
 
 //        UserInfo usuario1 = UserInfoRepository.getUserInfoById(conexaoBD, "19");
 //        System.out.print("ID=" + usuario1.getId());
 //        System.out.print(", NAME=" + usuario1.getName() + "\n");
-
-
+//
+//
 //        String[] valores = {"ACTIVE", "13"};
 //        Tipos[] tipos = {VARCHAR, VARCHAR};
 //        ArrayList<UserInfo> usuarios = UserInfoRepository.getUsersInfo(conexaoBD, valores, tipos);

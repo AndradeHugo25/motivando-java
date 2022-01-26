@@ -1,0 +1,16 @@
+1) Realize um select e exiba o resultado na tela.
+
+Exemplo:
+
+TABELA_BANANINHA
+
+| ID | NOME  | EMAIL         |
+| 1  | Hugo  | andrade@gmail |
+| 2  | Julia | jul@gmail     |
+| 3  | Pedro | pedro@hotmail |
+
+Imprimir todos os registros e todos os campos:
+
+ID=1, NOME='Hugo', EMAIL='andrade@gmail'
+ID=2, NOME='Julia', EMAIL='jul@gmail'
+ID=3, NOME='Pedro', EMAIL='pedro@hotmail'
