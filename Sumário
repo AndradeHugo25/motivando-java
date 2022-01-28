@@ -20,6 +20,7 @@
 	- escopos
 	- if aninhandos
 	- operador ternário
+	    - expressão lógica ? valor se verdadeiro : valor se falso
 	- switch
 3. Estruturas de repetição
 	- while, for, do while
