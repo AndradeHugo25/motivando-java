@@ -1,0 +1,13 @@
+2) Jogo da adivinhação:
+
+- pc sorteia um número de 1 a 5
+- usuário entra com um número
+- pc exibe se usuário acertou ou não o número sorteado
+
+========= OBS ====================================================
+
+Código para gerar um número inteiro aleatório no intervalo de a até b:
+
+from random import randint
+
+x = randint(a, b)

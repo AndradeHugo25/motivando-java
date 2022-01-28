@@ -1,0 +1,16 @@
+2) Final de semana.
+
+Escreva um programa que leia o tempo, condições financeiras e as condições do carro do usuário:
+
+    "Como estará o tempo no fim de semana? (Sol, Chovendo, Nevando)"
+    "Você tem dinheiro para gasolina?"
+    "Seu carro está quebrado?"
+
+E diga qual será a atividade do usuário no fim de semana.
+
+Regras:
+- se estiver chovendo, ficará em casa
+- só poderá sair de carro se tiver dinheiro para gasolina
+- se estiver nevando, viajará acompanhado
+- viajará sozinho se estiver fazendo sol
+- se o carro estiver quebrado e não estiver chovendo ou nevando, irá ao cinema de ônibus
