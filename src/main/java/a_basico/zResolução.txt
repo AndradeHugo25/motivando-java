@@ -1,0 +1,7 @@
+0- println
+1- operador + ou incremento e decremento ++, --
+2- operador +, procedência ()
+3- operador / divisão comum
+4- type casting (int) e operador / divisão inteira
+5- operador %
+6- operador * e operador / divisão comum
