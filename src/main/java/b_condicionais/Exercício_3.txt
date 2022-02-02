@@ -1,4 +1,4 @@
-2) Jogo da adivinhação:
+3) Jogo da adivinhação:
 
 - pc sorteia um número de 1 a 5
 - usuário entra com um número
@@ -6,8 +6,9 @@
 
 ========= OBS ====================================================
 
-Código para gerar um número inteiro aleatório no intervalo de a até b:
+Código para gerar um número inteiro aleatório no intervalo de 1 até b:
 
-from random import randint
+import java.util.Random;
 
-x = randint(a, b)
+Random r = new Random();
+int numSorteado = r.nextInt(b) + 1;

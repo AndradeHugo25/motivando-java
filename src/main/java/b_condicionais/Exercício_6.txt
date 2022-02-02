@@ -1,4 +1,4 @@
-2) Final de semana.
+6) Final de semana.
 
 Escreva um programa que leia o tempo, condições financeiras e as condições do carro do usuário:
 
