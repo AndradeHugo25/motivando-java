@@ -1,7 +1,4 @@
-package d_collections;
-
-import java.util.HashMap;
-import java.util.Map;
+package d_ed;
 
 public class VetoresECollections {
 
