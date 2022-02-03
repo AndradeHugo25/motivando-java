@@ -23,8 +23,8 @@
 	    - expressão lógica ? valor se verdadeiro : valor se falso
 	- switch
 3. Estruturas de repetição
-	- while, for, do while
-4. Estrutura de dados (vetores, lista, map)
+	- while, for, do while, foreach (Tópico 4)
+4. Estrutura de dados
 	- vetores, matrizes (curiosidade), listas, map
 5. Métodos
 	- sobrecarga de métodos
