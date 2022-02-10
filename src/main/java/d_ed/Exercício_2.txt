@@ -1,0 +1,5 @@
+2) Faça um programa que:
+    - Leia a quantidade desejada de usuários
+    - Leia a idade de cada usuário
+    - Remova os usuários menores de idade
+    - Imprima quantos usuários restaram na lista

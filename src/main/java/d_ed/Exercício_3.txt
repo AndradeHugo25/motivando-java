@@ -1,0 +1,2 @@
+3) Faça um programa que leia a matrícula e o nome de 4 usuários, imprimindo as matrículas dos nomes
+que começam com a letra 'A'.
