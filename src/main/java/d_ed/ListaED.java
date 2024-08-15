@@ -11,7 +11,9 @@ public class ListaED {
         nomes.add("Ju");
         nomes.add("Helen");
 
-        System.out.print("LISTA: " + nomes);
+//        System.out.println("LISTA: " + nomes);
+
+//        System.out.println(nomes.get(1));
 
 //        for (String nome : nomes) {
 //            System.out.print(nome + " ");

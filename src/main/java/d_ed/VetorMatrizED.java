@@ -4,18 +4,18 @@ public class VetorMatrizED {
 
     public static void main(String[] args) {
 
-        String[] frutas = new String[3];
-        frutas[0] = "Bananinha";
-        frutas[1] = "Uva";
-        frutas[2] = "Pera";
+//        String[] frutas = new String[3];
+//        frutas[0] = "Bananinha";
+//        frutas[1] = "Uva";
+//        frutas[2] = "Pera";
 //        frutas[3] = "Pepino";
 
-        System.out.print("VETOR: ");
-
-        for (String fruta : frutas) {
-            System.out.print(fruta + " ");
-        }
-
+//        System.out.print("VETOR: ");
+//
+//        for (String fruta : frutas) {
+//            System.out.print(fruta + " ");
+//        }
+//
 //        frutas[2] = "Morango";
 //
 //        System.out.print("\nVETOR: ");
@@ -31,8 +31,8 @@ public class VetorMatrizED {
 //        for (String fruta : outrasFrutas) {
 //            System.out.print(fruta + " ");
 //        }
-
-        System.out.println();
+//
+//        System.out.println();
 
         //Matriz -----------------------------------------------------------
 //        char[][] batalhaNaval = {{' ', '1', '2', '3', '4', '5'}, {'A', ' ', 'X', 'X', 'X'}, {'B'}, {'C'}};

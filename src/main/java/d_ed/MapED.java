@@ -7,51 +7,51 @@ public class MapED {
 
     public static void main(String[] args) {
 
-        Map<Integer, String> map = new HashMap<>();
-        map.put(1, "Goleiro");
-        map.put(2, "Ponta esquerda");
-        map.put(3, "Meia esquerda");
-        map.put(4, "Central");
-        map.put(5, "Meia direita");
-        map.put(6, "Ponta direita");
-        map.put(7, "Pivô");
+        Map<Integer, String> time = new HashMap<>();
+        time.put(1, "Goleiro");
+        time.put(2, "Ponta esquerda");
+        time.put(3, "Meia esquerda");
+        time.put(4, "Central");
+        time.put(5, "Meia direita");
+        time.put(6, "Ponta direita");
+        time.put(7, "Pivô");
 
-        System.out.println("TIME: " + map);
+        System.out.println("TIME: " + time);
 
-//        System.out.println();
-//
-//        for (Map.Entry<Integer, String> atual : map.entrySet()) {
-//            System.out.println(atual);
+        System.out.println();
+
+//        for (Map.Entry<Integer, String> jogador : time.entrySet()) {
+//            System.out.println(jogador);
 //        }
 //
-//        for (Integer indice : map.keySet()) {
-//            System.out.println(indice);
+//        for (Integer chave : time.keySet()) {
+//            System.out.println(chave);
 //        }
 //
-//        for (String posicao : map.values()) {
+//        for (String posicao : time.values()) {
 //            System.out.println(posicao);
 //        }
 
         //contém chave ---------------------------------------------------
-//        String resposta = map.containsKey(1) ? "Camisa 1? Sim, já tem gente usando!" : "Camisa 1? Ninguém usando!";
+//        String resposta = time.containsKey(1) ? "Camisa 1? Sim, já tem gente usando!" : "Camisa 1? Ninguém usando!";
 //        System.out.println(resposta);
 //
-//        map.remove(1);
+//        time.remove(1);
 //
-//        System.out.println("\nTIME: " + map);
+//        System.out.println("\nTIME: " + time);
 //
-//        resposta = map.containsKey(1) ? "Camisa 1? Sim, já tem gente usando!" : "Camisa 1? Ninguém usando!";
+//        resposta = time.containsKey(1) ? "Camisa 1? Sim, já tem gente usando!" : "Camisa 1? Ninguém usando!";
 //        System.out.println(resposta);
 
         //contém valor -------------------------------------------------------------------
-//        String resposta2 = map.containsValue("Goleiro") ? "Goleiro? Sim, tá no time!" : "Goleiro? Vixi, tem não!";
+//        String resposta2 = time.containsValue("Goleiro") ? "Goleiro? Sim, tá no time!" : "Goleiro? Vixi, tem não!";
 //        System.out.println(resposta2);
 //
-//        map.remove(1);
+//        time.remove(1);
 //
-//        System.out.println("\nTIME: " + map);
+//        System.out.println("\nTIME: " + time);
 //
-//        resposta2 = map.containsValue("Goleiro") ? "Camisa 1? Sim, tá no time!" : "Goleiro? Vixi, tem não!";
+//        resposta2 = time.containsValue("Goleiro") ? "Camisa 1? Sim, tá no time!" : "Goleiro? Vixi, tem não!";
 //        System.out.println(resposta2);
     }
 
