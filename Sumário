@@ -1,0 +1,62 @@
+Github: https://github.com/AndradeHugo25/motivando-java
+
+1. Variáveis, Operadores aritméticos e lógicos
+    - Geral
+        - comentários
+        - regras e boas práticas (slide)
+        - case sensitive
+	- Variáveis
+	    - fortemente tipada
+	    - tipos: byte, short, int, long, float, double, char, boolean, String
+	    - manipulação de texto
+	    - declaração x atribuição, declaração múltipla
+	    - final
+	    - type casting
+	- Operadores
+	    - +, -, /, *, %
+	    - conversão na divisão
+	    - incremento: ++, --, +=, -=, etc
+	    - &, | e !
+	    - procedência (slide)
+
+
+2. Estruturas condicionais
+	- escopos
+	- if aninhandos
+	- operador ternário
+	    - expressão lógica ? valor se verdadeiro : valor se falso
+	- switch
+
+
+3. Estruturas de repetição
+	- while, for, do while, foreach (Tópico 4)
+
+
+4. Estrutura de dados
+	- vetores, matrizes (curiosidade), listas, map
+
+
+5. Métodos
+	- sobrecarga de métodos
+	- exceções
+
+
+6. OO
+    - atributos (propriedades, características)
+    - métodos (comportamentos, ações)
+        - construtor, get e set
+    - encapsulamento (lombok), polimorfismo, herança
+    - static
+    - enum
+    - abstract, interface
+
+
+7. Interação com BD
+	- conexão
+	- select, update, delete
+	- query fixa, query variável
+	- model, repository
+
+
+8. Interação com arquivos
+	- leitura, escrita

@@ -1,0 +1,14 @@
+9) Intervalo.
+
+Escreva um programa que leia um número inteiro e diga se ele está no intervalo de um até cem [1, 100].
+
+Exemplo:
+
+Usuário fornece: 44
+Programa exibirá: "O número 44 está dentro do intervalo [1, 100]"
+
+Usuário fornece: 1
+Programa exibirá: "O número 1 está dentro do intervalo [1, 100]"
+
+Usuário fornece: 1213
+Programa exibirá: "O número 1213 está fora do intervalo [1, 100]"

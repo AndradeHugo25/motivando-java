@@ -1,0 +1,12 @@
+8) Frutas.
+
+Escreva um programa que exiba exatamente a pergunta: "Diga 3 frutas que você gosta de comer, separados
+por vírgula:". Então, o programa exibirá se a lista possui ou não a fruta banana.
+
+Exemplo:
+
+Usuário fornece: "Uva, maçã, abacate"
+Programa exibirá: "A lista não possui banana!"
+
+Usuário fornece: "Banana, abacaxi, abacate"
+Programa exibirá: "A lista possui banana!"

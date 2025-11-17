@@ -1,0 +1,5 @@
+1) Dado o vetor fixo de inteiros abaixo, imprima o dobro de cada elemento.
+
+        int[] numeros = {1, 2, 3, 4, 5};
+
+Saída esperada: {2, 4, 6, 8, 10}

@@ -1,0 +1,17 @@
+7) Sobrenomes.
+
+Escreva um programa que:
+
+    - Leia um nome completo fornecido pelo usuário
+    - Exiba exatamente a pergunta abaixo:
+        "Escolha uma opção:
+         (1) Nome do meio
+         (2) Último nome"
+    - Se o usuário escolher a opção 1, então exibirá o nome seguido do primeiro sobrenome fornecido
+    - Se o usuário escolher a opção 1, então exibirá o nome seguido do último sobrenome fornecido
+
+Exemplo:
+
+Usuário fornece o nome: "Hugo Andrade da Silva"
+Com a opção 1, programa exibirá: "Hugo Andrade"
+Com a opção 1, programa exibirá: "Hugo Silva"

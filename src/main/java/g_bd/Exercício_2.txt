@@ -1,0 +1,16 @@
+2) Realize um select específico e exiba um campo de cada registro do resultado na tela.
+
+Exemplo:
+
+TABELA_BANANINHA
+
+| ID | NOME  | STATUS  | TIPO  |
+| 1  | Hugo  | ativo   | user  |
+| 2  | Julia | ativo   | admin |
+| 3  | Pedro | ativo   | admin |
+| 4  | Rony  | inativo | user  |
+
+Imprimir o nome dos usuários que estão ativos e são admin:
+
+NOME='Julia'
+NOME='Pedro'
