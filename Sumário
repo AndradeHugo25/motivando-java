@@ -6,7 +6,7 @@ Github: https://github.com/AndradeHugo25/motivando-java
         - regras e boas práticas (slide)
         - case sensitive
 	- Variáveis
-	    - fortemente tipada
+	    - linguagem fortemente tipada
 	    - tipos: byte, short, int, long, float, double, char, boolean, String
 	    - manipulação de texto
 	    - declaração x atribuição, declaração múltipla
@@ -18,6 +18,9 @@ Github: https://github.com/AndradeHugo25/motivando-java
 	    - incremento: ++, --, +=, -=, etc
 	    - &, | e !
 	    - procedência (slide)
+    - OBS
+        - scanner (para facilitar os exercícios)
+        - atalhos do IDE
 
 
 2. Estruturas condicionais
