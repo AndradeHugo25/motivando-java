@@ -1,4 +1,4 @@
-package a_basico.conteudo;
+package a_basico;
 
 public class Basico3Variaveis {
 
@@ -20,7 +20,7 @@ public class Basico3Variaveis {
 
 
         // type cast ============================================================================
-        double preco = 3.44;
+        double preco = 3.51;
         int arredondado = (int) preco;
         System.out.println("Casting explícito: " + arredondado);
 
@@ -33,7 +33,7 @@ public class Basico3Variaveis {
         System.out.println("Parsing: " + valorDouble);
 
         String textoNum = String.valueOf(arredondado);
-        System.out.println("Conversão para String: " + textoNum);
+        System.out.println("Conversão para String: " + textoNum + "\n\n");
 
 
         // final =================================================================================
@@ -49,7 +49,7 @@ public class Basico3Variaveis {
         // manipulação de texto ==================================================================
         String texto = "  Quero testar uma string.  ";
 
-        System.out.println("Texto original: " + texto);
+        System.out.println("Texto original: " + texto + "\n");
         texto = texto.trim();
         System.out.println("Sem espaços: " + texto);
 

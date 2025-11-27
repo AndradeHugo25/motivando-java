@@ -1,6 +1,6 @@
 # Motivando - Java
-- Projeto para passagem de conhecimentos básico em Java.
-
+- Projeto com o objetivo de passar o conhecimento de Java Básico para ser utilizado como recurso na automação de testes, abordando os conceitos essenciais da linguagem necessários para criar scripts automatizados, como variáveis, operadores, estruturas de controle, métodos e orientação a objetos.
+  
 ## Sumário do Curso
 
 1. Variáveis, Operadores aritméticos e lógicos

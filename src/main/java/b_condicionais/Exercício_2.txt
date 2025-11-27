@@ -1,3 +1,0 @@
-2) Escreva um programa que leia um número do teclado e diga se ele é par ou ímpar.
-
-Utilize operador ternário.

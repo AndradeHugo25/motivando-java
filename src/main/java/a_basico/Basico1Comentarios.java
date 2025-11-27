@@ -1,4 +1,4 @@
-package a_basico.conteudo;
+package a_basico;
 
 public class Basico1Comentarios {
 

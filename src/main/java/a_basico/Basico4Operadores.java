@@ -1,4 +1,4 @@
-package a_basico.conteudo;
+package a_basico;
 
 public class Basico4Operadores {
 
@@ -27,13 +27,21 @@ public class Basico4Operadores {
         // System.out.println(b++);
         // System.out.println("b após b++: " + b);
 
+        // relacionais ===================================================================
+        // System.out.println(5 > 3);
+        // System.out.println(5 < 3);
+        // System.out.println(5 >= 5);
+        // System.out.println(5 <= 3);
+        // System.out.println(5 == 5);
+        // System.out.println(5 != 3);
+
         // operadores lógicos ============================================================
         // boolean temCarro = true;
         // boolean temCarteira = false;
         // boolean bebeu = true;
         // boolean temDinheiroTaxi = true;
 
-        // boolean podeDirigir = temCarro & temCarteira & !bebeu;
+        // boolean podeDirigir = temCarro && temCarteira && !bebeu;
         // System.out.println("Pode dirigir? " + podeDirigir);
 
         // boolean podeVoltarParaCasa = !bebeu || temDinheiroTaxi;

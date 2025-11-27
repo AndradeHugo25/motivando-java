@@ -1,4 +1,4 @@
-package a_basico.conteudo;
+package a_basico;
 
 public class Basico2RegrasBoasPraticas {
 
@@ -7,7 +7,7 @@ public class Basico2RegrasBoasPraticas {
 
         // Erros de sintaxe - não compilam
 
-        // int static = 10;
+        // int public = 10;
         // int numero de vidas = 5;
         // int 7vidas = 7;
         // int %vidas = 3;
@@ -21,7 +21,7 @@ public class Basico2RegrasBoasPraticas {
         // int numero_de_vidas = 2;
         // int númeroVidas = 2;
         // String a = "João";
-        // boolean issoAquiEhUmaBoaPraticaDeEscritaDeVariavel = true;
+        // boolean issoAquiNaoEhUmaBoaPraticaDeEscritaDeVariavel = true;
 
         // Práticas convencionais - recomendadas
         // int numeroVidas = 4;
