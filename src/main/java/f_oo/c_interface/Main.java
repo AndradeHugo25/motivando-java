@@ -1,4 +1,4 @@
-package f_oo.z_interface;
+package f_oo.c_interface;
 
 public class Main {
 

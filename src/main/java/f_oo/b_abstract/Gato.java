@@ -1,4 +1,4 @@
-package f_oo.z_abstract;
+package f_oo.b_abstract;
 
 public class Gato extends Animal {
 
