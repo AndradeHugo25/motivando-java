@@ -2,14 +2,14 @@ package d_ed;
 
 import java.util.ArrayList;
 
-public class ListaED {
+public class ED2Lista {
 
     public static void main(String[] args) {
 
-        ArrayList<String> nomes = new ArrayList<>();
-        nomes.add("Ale");
-        nomes.add("Ju");
-        nomes.add("Helen");
+//        ArrayList<String> nomes = new ArrayList<>();
+//        nomes.add("Ale");
+//        nomes.add("Ju");
+//        nomes.add("Carol");
 
 //        System.out.println("LISTA: " + nomes);
 
@@ -19,14 +19,14 @@ public class ListaED {
 //            System.out.print(nome + " ");
 //        }
 
-//        String resposta = nomes.contains("Helen") ? "Helen? Sim, contém!" : "Helen? Vixi, tem não!";
+//        String resposta = nomes.contains("Carol") ? "Carol? Sim, contém!" : "Carol? Vixi, tem não!";
 //        System.out.println("\n" + resposta);
 //
-//        nomes.remove("Helen");
+//        nomes.remove("Carol");
 //
 //        System.out.println("\nLISTA: " + nomes);
 //
-//        resposta = nomes.contains("Helen") ? "Helen? Sim, contém!" : "Helen? Vixi, tem mais não!";
+//        resposta = nomes.contains("Helen") ? "Carol? Sim, contém!" : "Carol? Vixi, tem mais não!";
 //        System.out.println(resposta);
     }
 

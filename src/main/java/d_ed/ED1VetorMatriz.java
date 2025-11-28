@@ -1,16 +1,17 @@
 package d_ed;
 
-public class VetorMatrizED {
+public class ED1VetorMatriz {
 
     public static void main(String[] args) {
 
-//        String[] frutas = new String[3];
+        //Vetor -----------------------------------------------------------
+//        String[] frutas = new String[4];
 //        frutas[0] = "Bananinha";
 //        frutas[1] = "Uva";
 //        frutas[2] = "Pera";
 //        frutas[3] = "Pepino";
-
-//        System.out.print("VETOR: ");
+//
+//        System.out.print("CESTA VELHA: ");
 //
 //        for (String fruta : frutas) {
 //            System.out.print(fruta + " ");
@@ -18,12 +19,12 @@ public class VetorMatrizED {
 //
 //        frutas[2] = "Morango";
 //
-//        System.out.print("\nVETOR: ");
+//        System.out.print("\nNOVA CESTA: ");
 //
 //        for (String fruta : frutas) {
 //            System.out.print(fruta + " ");
 //        }
-
+//
 //        String[] outrasFrutas = {"Mamão", "Maçã", "Amora", "Laranja"};
 //
 //        System.out.print("\n\nLISTA DE FRUTAS: ");

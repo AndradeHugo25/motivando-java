@@ -1,24 +1,21 @@
 package d_ed;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class MapED {
+public class ED4Map {
 
     public static void main(String[] args) {
 
-        Map<Integer, String> time = new HashMap<>();
-        time.put(1, "Goleiro");
-        time.put(2, "Ponta esquerda");
-        time.put(3, "Meia esquerda");
-        time.put(4, "Central");
-        time.put(5, "Meia direita");
-        time.put(6, "Ponta direita");
-        time.put(7, "Pivô");
-
-        System.out.println("TIME: " + time);
-
-        System.out.println();
+//        Map<Integer, String> time = new HashMap<>();
+//        time.put(1, "Goleiro");
+//        time.put(2, "Ponta esquerda");
+//        time.put(3, "Meia esquerda");
+//        time.put(4, "Central");
+//        time.put(5, "Meia direita");
+//        time.put(6, "Ponta direita");
+//        time.put(7, "Pivô");
+//
+//        System.out.println("TIME: " + time);
+//
+//        System.out.println();
 
 //        for (Map.Entry<Integer, String> jogador : time.entrySet()) {
 //            System.out.println(jogador);
