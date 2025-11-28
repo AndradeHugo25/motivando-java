@@ -12,9 +12,10 @@
 7. Interação com Banco de Dados (BD)
 8. Interação com arquivos
 
-## Link do repositório
+## Links
 
-- https://github.com/AndradeHugo25/motivando-java
+- Repositório: https://github.com/AndradeHugo25/motivando-java
+- Material do curso: https://docs.google.com/presentation/d/1K4eU7Hxpxwjd6gTfL4K65JqpVufo3u7x/edit?slide=id.p1#slide=id.p1
 
 ## Fluxo de trabalho
 
