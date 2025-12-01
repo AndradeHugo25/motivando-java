@@ -1,10 +1,11 @@
-package f_oo.a_oo;
+package f_poo.b_heranca;
 
 public class Animal {
 
     private String nome;
     private char sexo;
     private int idade;
+
 
     public Animal() {
     }

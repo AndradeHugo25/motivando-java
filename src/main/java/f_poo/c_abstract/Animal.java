@@ -1,9 +1,17 @@
-package f_oo.b_abstract;
+package f_poo.c_abstract;
 
 public abstract class Animal {
 
     private String nome;
-    private int idade = 3;
+    private int idade;
+
+    public Animal() {
+    }
+
+    public Animal(String nome) {
+        this.nome = nome;
+        this.idade = 0;
+    }
 
     public void respirar() {
         System.out.println(this.nome + " ... respirando ...");

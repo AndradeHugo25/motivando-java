@@ -1,4 +1,4 @@
-package f_oo.a_oo;
+package f_poo.b_heranca;
 
 public class Cabrito extends Animal {
 

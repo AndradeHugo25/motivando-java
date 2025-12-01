@@ -1,6 +1,4 @@
-package f_oo.a_oo;
-
-import java.util.ArrayList;
+package f_poo.b_heranca;
 
 public class Main {
 
@@ -13,6 +11,7 @@ public class Main {
 //        Cabrito cabritao = new Cabrito("Buzz", 'M');
 //        cabritao.respirar();
 //        cabritao.berrar();
+//
 //        cabritao.setNome("Tiago");
 //        cabritao.respirar();
 //        cabritao.berrar();
@@ -42,8 +41,8 @@ public class Main {
 //        b3.voar();
     }
 
-//    public static void imprimirBorboletas(ArrayList<Borboleta> bichinhas) {
-//        for (Borboleta atual : bichinhas) {
+//    public static void imprimirBorboletas(ArrayList<Borboleta> brabuletas) {
+//        for (Borboleta atual : brabuletas) {
 //            System.out.println(atual);
 //        }
 //    }

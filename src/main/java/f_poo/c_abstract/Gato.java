@@ -1,4 +1,4 @@
-package f_oo.b_abstract;
+package f_poo.c_abstract;
 
 public class Gato extends Animal {
 
@@ -6,8 +6,7 @@ public class Gato extends Animal {
     private int idade;
 
     public Gato(String nome) {
-        this.nome = nome;
-        this.idade = 0;
+        super(nome);
     }
 
     @Override

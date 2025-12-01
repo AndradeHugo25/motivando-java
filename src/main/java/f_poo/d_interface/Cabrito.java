@@ -1,4 +1,4 @@
-package f_oo.c_interface;
+package f_poo.d_interface;
 
 import lombok.Data;
 

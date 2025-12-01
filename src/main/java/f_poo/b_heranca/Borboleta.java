@@ -1,4 +1,4 @@
-package f_oo.a_oo;
+package f_poo.b_heranca;
 
 public class Borboleta extends Animal {
 
@@ -7,6 +7,7 @@ public class Borboleta extends Animal {
     private enum Estagio {
         LARVA, CASULO, BORBOLETA
     }
+
 
     public Borboleta() {
     }
@@ -45,6 +46,10 @@ public class Borboleta extends Animal {
 
     public Estagio getEstagio() {
         return estagio;
+    }
+
+    public void setEstagio(Estagio estagio) {
+        this.estagio = estagio;
     }
 
     @Override

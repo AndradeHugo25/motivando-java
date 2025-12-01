@@ -1,8 +1,5 @@
-package f_oo.b_abstract;
+package f_poo.c_abstract;
 
-import lombok.Data;
-
-@Data
 public class Cachorro extends Animal {
 
     private String nome;
@@ -10,8 +7,7 @@ public class Cachorro extends Animal {
     public static final String tipo = "CACHORRO";
 
     public Cachorro(String nome) {
-        this.nome = nome;
-        this.idade = 0;
+        super(nome);
     }
 
     @Override
