@@ -1,14 +1,11 @@
-package g_bd;
+package h_bd;
 
-import g_bd.database.ConexaoBD;
-import g_bd.model.UserInfo;
-import g_bd.repository.UserInfoRepository;
+import h_bd.database.ConexaoBD;
 
 import java.sql.ResultSet;
-import java.util.ArrayList;
 
-import static g_bd.database.ConexaoBD.*;
-import static g_bd.database.ConexaoBD.Tipos.*;
+import static h_bd.database.ConexaoBD.*;
+import static h_bd.database.ConexaoBD.Tipos.*;
 
 public class Main {
 

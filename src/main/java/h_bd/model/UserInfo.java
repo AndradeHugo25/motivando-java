@@ -1,4 +1,4 @@
-package g_bd.model;
+package h_bd.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

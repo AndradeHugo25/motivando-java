@@ -1,14 +1,14 @@
-package g_bd.repository;
+package h_bd.repository;
 
-import g_bd.database.ConexaoBD;
-import g_bd.model.UserInfo;
+import h_bd.database.ConexaoBD;
+import h_bd.model.UserInfo;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-import static g_bd.database.ConexaoBD.*;
-import static g_bd.database.ConexaoBD.Tipos.INTEGER;
-import static g_bd.model.UserInfo.Campos.*;
+import static h_bd.database.ConexaoBD.*;
+import static h_bd.database.ConexaoBD.Tipos.INTEGER;
+import static h_bd.model.UserInfo.Campos.*;
 
 public class UserInfoRepository {
 

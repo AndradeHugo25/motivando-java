@@ -1,11 +1,9 @@
-package g_bd.database;
+package h_bd.database;
 
 import lombok.Data;
 
 import java.math.BigDecimal;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.Properties;
 
 @Data
 public class ConexaoBD {

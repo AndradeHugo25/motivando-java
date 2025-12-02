@@ -1,0 +1,15 @@
+QA (Quality Assurance) é uma área fundamental no desenvolvimento de software, responsável por garantir que os produtos
+entregues atendam aos requisitos de qualidade definidos. O processo envolve a criação de testes, análise de resultados,
+identificação de falhas e sugestão de melhorias. Profissionais de QA trabalham em conjunto com desenvolvedores e
+gestores para promover práticas que aumentem a confiabilidade, segurança e desempenho das aplicações, contribuindo para
+a satisfação do usuário final e o sucesso do projeto.
+
+Principais tipos de teste em QA:
+- Teste unitário
+- Teste de integração
+- Teste de sistema
+- Teste de aceitação
+- Teste de regressão
+- Teste de desempenho
+- Teste de segurança
+- Teste de usabilidade
