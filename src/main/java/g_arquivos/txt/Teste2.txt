@@ -13,3 +13,9 @@ Principais tipos de teste em QA:
 - Teste de desempenho
 - Teste de segurança
 - Teste de usabilidade
+
+Além disso, a área de QA está em constante evolução, incorporando novas ferramentas e metodologias,
+como testes automatizados e práticas de DevOps, para atender às demandas crescentes de agilidade e qualidade
+no desenvolvimento de software. Essa evolução reflete a importância de um aprendizado contínuo e da adaptação
+às mudanças tecnológicas, garantindo que os produtos entregues estejam sempre alinhados às expectativas do mercado
+e dos usuários.
