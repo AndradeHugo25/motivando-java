@@ -2,7 +2,7 @@ package h_exercicios;
 
 import java.util.Scanner;
 
-public class ExerciciosCondicionais1 {
+public class ExerciciosCondicionais8 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
