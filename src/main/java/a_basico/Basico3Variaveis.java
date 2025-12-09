@@ -62,6 +62,8 @@ public class Basico3Variaveis {
         System.out.println("Termina com '.': " + texto.endsWith("."));
         System.out.println("Troca palavra: " + texto.replace("string", "texto"));
         System.out.println("Caractere na posição 1: " + texto.charAt(1));
+        System.out.println("É String vazia? " + texto.isEmpty());
+        System.out.println("Índice do caractere 't': " + texto.indexOf('t'));
     }
 
 }
