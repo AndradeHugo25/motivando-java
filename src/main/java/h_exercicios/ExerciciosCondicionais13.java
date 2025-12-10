@@ -6,12 +6,15 @@ public class ExerciciosCondicionais13 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a previsão do tempo");
-        System.out.println("Digite se tem gasolina");
-        System.out.println("Digite se tem carro");
-        String previsao = in.next();
-        boolean temGasolina = true;
-        boolean temCarro = false;
+
+        System.out.println("Digite a previsão do tempo:");
+        String previsao = in.nextLine();
+
+        System.out.println("Digite true ou false se tem gasolina:");
+        boolean temGasolina = in.nextBoolean() ;
+
+        System.out.println("Digite true ou false se o carro está bom:");
+        boolean temCarro = in.nextBoolean();
 
 // Validar se pode fazer em Switch
 
