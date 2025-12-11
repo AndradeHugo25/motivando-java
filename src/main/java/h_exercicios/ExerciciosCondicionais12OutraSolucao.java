@@ -2,7 +2,7 @@ package h_exercicios;
 
 import java.util.Scanner;
 
-public class ExerciciosCondicionais12 {
+public class ExerciciosCondicionais12OutraSolucao {
 
     public static void main(String[] args) {
         String sistema = gerarEscolhaAleatoria();
@@ -14,20 +14,17 @@ public class ExerciciosCondicionais12 {
         System.out.println("Você escolheu " + jogo);
         System.out.println("O sistema escolheu " + sistema);
 
+        // --- Solução enxuta baseada nos 3 resultados ---
+        System.out.println("\nSolução enxuta:");
         if (sistema.equals(jogo)) {
             System.out.println("Empate");
-        } else if (sistema.equals("pedra") && jogo.equals("papel")) {
+        } else if (
+            (sistema.equals("pedra") && jogo.equals("papel")) ||
+            (sistema.equals("papel") && jogo.equals("tesoura")) ||
+            (sistema.equals("tesoura") && jogo.equals("pedra"))
+        ) {
             System.out.println("Você ganhou");
-        } else if (sistema.equals("pedra") && jogo.equals("tesoura")) {
-            System.out.println("O sistema ganhou");
-        } else if (sistema.equals("papel") && jogo.equals("pedra")) {
-            System.out.println("O sistema ganhou");
-        } else if (sistema.equals("papel") && jogo.equals("tesoura")) {
-            System.out.println("Você ganhou");
-        //TODO corrigir as condições repetidas abaixo
-        } else if (sistema.equals("tesoura") && jogo.equals("pedra")) {
-            System.out.println("Você ganhou");
-        } else if (sistema.equals("tesoura") && jogo.equals("pedra")) {
+        } else {
             System.out.println("O sistema ganhou");
         }
     }
