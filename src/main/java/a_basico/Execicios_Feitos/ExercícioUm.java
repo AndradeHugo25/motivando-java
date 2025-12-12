@@ -10,9 +10,9 @@ public class ExercícioUm {
             System.out.println("Valor inválido! Digite um número inteiro:");
             sc.next(); // descarta a entrada inválida
         }
-        int Numero1 = sc.nextInt();
-        int anterior = Numero1 - 1;
-        int posterior = Numero1 + 1;
+        int numero1 = sc.nextInt();
+        int anterior = numero1 - 1;
+        int posterior = numero1 + 1;
         System.out.println("Número Anterior: " + anterior);
         System.out.println("Número Posterior: " + posterior);
 

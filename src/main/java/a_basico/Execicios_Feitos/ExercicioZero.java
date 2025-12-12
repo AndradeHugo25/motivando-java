@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class ExercicioZero {
     public static void main(String[] args) {
-        Scanner nome = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("Informe seu nome: ");
-        String nome1 = nome.nextLine();
+        String nome1 = in.nextLine();
         System.out.println("Bom dia " + nome1 + " Informe sua Idade: ");
-        Integer idade = nome.nextInt();
+        Integer idade = in.nextInt();
         System.out.println("Bom dia " + nome1 + " Você tem : " + idade + " anos!");
 
     }
