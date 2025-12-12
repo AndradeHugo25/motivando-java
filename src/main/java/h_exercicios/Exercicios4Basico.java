@@ -3,7 +3,7 @@ package h_exercicios;
 import java.util.Scanner;
 
 
-public class ExerciciosBasico4 {
+public class Exercicios4Basico {
 
     //Conversão real x dólar
 

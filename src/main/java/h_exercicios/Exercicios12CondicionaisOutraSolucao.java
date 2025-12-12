@@ -2,7 +2,7 @@ package h_exercicios;
 
 import java.util.Scanner;
 
-public class ExerciciosCondicionais12OutraSolucao {
+public class Exercicios12CondicionaisOutraSolucao {
 
     public static void main(String[] args) {
         String sistema = gerarEscolhaAleatoria();

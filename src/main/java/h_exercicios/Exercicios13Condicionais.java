@@ -1,8 +1,9 @@
 package h_exercicios;
 
+import java.util.Objects;
 import java.util.Scanner;
 
-public class ExerciciosCondicionais13 {
+public class Exercicios13Condicionais {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -18,13 +19,13 @@ public class ExerciciosCondicionais13 {
 
 // Validar se pode fazer em Switch
 
-        if (previsao == "sol" && temGasolina && temCarro ) {
+        if (Objects.equals(previsao, "sol") && temGasolina && temCarro ) {
             System.out.println("Viajará sozinho");
-        } else if (previsao == "chuva") {
+        } else if (Objects.equals(previsao, "chuva")) {
             System.out.println("Ficará em casa");
-        } else if (previsao == "nevando" && temGasolina == true) {
+        } else if (Objects.equals(previsao, "nevando") && temGasolina) {
             System.out.println("Viajará acompanhado");
-        } else if (previsao == "sol" && temGasolina == true && temCarro == false) {
+        } else if (Objects.equals(previsao, "sol") && temGasolina) {
             System.out.println("Vai ao cinema de ônibus");
         } else {
             System.out.println("só pode sair se tiver dinheiro pra gasolina");

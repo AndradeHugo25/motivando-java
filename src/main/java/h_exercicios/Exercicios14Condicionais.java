@@ -2,16 +2,16 @@ package h_exercicios;
 
 import java.util.Scanner;
 
-public class ExerciciosCondicionais14Correcao {
+public class Exercicios14Condicionais {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite seu nome:");
-        String nome = in.nextLine().toLowerCase();
+        String nome = String.valueOf(in.nextLine().charAt(0));
 
-        if (nome.startsWith("a") || nome.startsWith("e") || nome.startsWith("i") || nome.startsWith("o") || nome.startsWith("u")) {
+        if (nome.equals("a") || nome.equals("e") || nome.equals("i")|| nome.equals("o") || nome.equals("u"))
             System.out.println("Inicia com vogal");
-        } else {
+        else {
             System.out.println("Não inicia com vogal");
         }
     }

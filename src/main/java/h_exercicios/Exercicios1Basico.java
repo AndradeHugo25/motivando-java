@@ -2,7 +2,7 @@ package h_exercicios;
 
 import java.util.Scanner;
 
-public class ExerciciosBasico1 {
+public class Exercicios1Basico {
 
     //Hello Word
 

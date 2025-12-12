@@ -2,7 +2,7 @@ package h_exercicios;
 
 import java.util.Scanner;
 
-public class ExerciciosBasico7 {
+public class Exercicios7Basico {
 
     //Pintura da sala
 

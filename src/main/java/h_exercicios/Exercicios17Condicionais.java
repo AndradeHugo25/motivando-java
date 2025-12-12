@@ -2,7 +2,7 @@ package h_exercicios;
 
 import java.util.Scanner;
 
-public class ExerciciosCondicionais17 {
+public class Exercicios17Condicionais {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite a operação que deseja fazer:");

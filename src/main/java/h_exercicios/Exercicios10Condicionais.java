@@ -3,7 +3,7 @@ package h_exercicios;
 import java.util.Scanner;
 import java.util.random.RandomGenerator;
 
-public class ExerciciosCondicionais10 {
+public class Exercicios10Condicionais {
 
     public static void main(String[] args) {
         int numeroAleatorio = RandomGenerator.getDefault().nextInt(1, 5 + 1);

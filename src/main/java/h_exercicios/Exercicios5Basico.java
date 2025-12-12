@@ -3,7 +3,7 @@ package h_exercicios;
 import java.util.Scanner;
 
 
-public class ExerciciosBasico5 {
+public class Exercicios5Basico {
 
     //Happy hour parte 1 e 2
 

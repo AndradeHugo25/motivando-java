@@ -1,6 +1,6 @@
 package h_exercicios;
 
-public class ExerciciosCondicionais9 {
+public class Exercicios9Condicionais {
 
     public static void main(String[] args) {
 

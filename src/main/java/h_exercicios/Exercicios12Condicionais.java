@@ -2,7 +2,7 @@ package h_exercicios;
 
 import java.util.Scanner;
 
-public class ExerciciosCondicionais12 {
+public class Exercicios12Condicionais {
 
     public static void main(String[] args) {
         String sistema = gerarEscolhaAleatoria();
@@ -27,7 +27,7 @@ public class ExerciciosCondicionais12 {
         //TODO corrigir as condições repetidas abaixo
         } else if (sistema.equals("tesoura") && jogo.equals("pedra")) {
             System.out.println("Você ganhou");
-        } else if (sistema.equals("tesoura") && jogo.equals("pedra")) {
+        } else if (sistema.equals("tesoura") && jogo.equals("papel")) {
             System.out.println("O sistema ganhou");
         }
     }

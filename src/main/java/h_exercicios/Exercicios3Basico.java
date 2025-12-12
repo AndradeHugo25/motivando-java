@@ -2,7 +2,7 @@ package h_exercicios;
 
 import java.util.Scanner;
 
-public class ExerciciosBasico3 {
+public class Exercicios3Basico {
 
     //Média
 
