@@ -34,7 +34,7 @@ public class ManipuladorExcel {
             System.out.println("Total de abas: " + numAbas);
             for (int i = 0; i < numAbas; i++) {
                 Sheet sheet = workbook.getSheetAt(i);
-                System.out.println("Aba: " + sheet.getSheetName());
+                System.out.println("\nAba: " + sheet.getSheetName());
                 int lastRowNum = sheet.getLastRowNum();
                 int maxCellNum = 0;
                 for (int r = 0; r <= lastRowNum; r++) {
