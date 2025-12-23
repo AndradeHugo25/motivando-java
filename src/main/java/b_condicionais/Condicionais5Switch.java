@@ -17,7 +17,10 @@ public class Condicionais5Switch {
         }
 
         switch (dia.toLowerCase()) {
-            case "segunda", "terça", "quarta", "quinta" -> System.out.println("Bora trabalhar =(");
+            case "segunda", "terça", "quarta", "quinta" -> {
+                System.out.println("Bora trabalhar =(");
+                System.out.println("Seu cartão de crédito tá de olho!");
+            }
             case "sexta", "sábado" -> System.out.println("Bora beber!");
             case "domingo" -> System.out.println("Bora beber de leve.");
             default -> System.out.println("Dia inválido.");
