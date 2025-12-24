@@ -1,6 +1,4 @@
-package a_basico.Execicios_Feitos;
-
-import io.cucumber.java.bs.A;
+package b_condicionais.exercicios;
 
 import java.util.Scanner;
 import java.util.random.RandomGenerator;

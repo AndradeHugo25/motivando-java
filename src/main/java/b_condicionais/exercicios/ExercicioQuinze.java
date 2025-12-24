@@ -1,4 +1,4 @@
-package a_basico.Execicios_Feitos;
+package b_condicionais.exercicios;
 
 import java.util.Arrays;
 import java.util.Scanner;
