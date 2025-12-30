@@ -1,0 +1,20 @@
+Github: https://github.com/AndradeHugo25/motivando-java
+
+Para proteger a branch main
+
+Ative estas regras em “Branch rules”:
+
+✅ Restrict updates → selecione Only specific actors can update matching refs → não adicione ninguém (ou só quem deve ter permissão, ex.: CI bot).
+✅ Require a pull request before merging (para obrigar PR).
+✅ Block force pushes (impede --force).
+✅ Restrict deletions (opcional, para proteger a branch).
+
+
+
+
+
+7. Interação com BD
+	- conexão
+	- select, update, delete
+	- query fixa, query variável
+	- model, repository
