@@ -1,3 +1,0 @@
-4) Faça um programa que:
-    - Leia uma lista de nomes
-    -
