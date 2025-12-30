@@ -9,14 +9,14 @@ Você vai precisar de 6 litros de tinta.
 */
 import java.util.Scanner;
 
-void main() {
-    Scanner sc = new Scanner(System.in);
-    IO.print("Digite a largura da parede: ");
-    double largura = sc.nextDouble();
-    IO.print("Digite a altura da parede: ");
-    double altura = sc.nextDouble();
-    double area = largura * altura;
-    double tinta = area / 2;
-    IO.println("A área a ser pintada é  " + area + " m2.");
-    IO.println("Você vai precisar de " + (int)tinta + " litros de tinta.");
-}
+//void main() {
+//    Scanner sc = new Scanner(System.in);
+//    IO.print("Digite a largura da parede: ");
+//    double largura = sc.nextDouble();
+//    IO.print("Digite a altura da parede: ");
+//    double altura = sc.nextDouble();
+//    double area = largura * altura;
+//    double tinta = area / 2;
+//    IO.println("A área a ser pintada é  " + area + " m2.");
+//    IO.println("Você vai precisar de " + (int)tinta + " litros de tinta.");
+//}

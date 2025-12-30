@@ -1,4 +1,4 @@
-/*Exercicio 1
+package a_basico.exercicio;/*Exercicio 1
 Patricia Ellen Silva Specht
 Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas:
  */
