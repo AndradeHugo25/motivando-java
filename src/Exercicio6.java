@@ -1,0 +1,18 @@
+/*Exercicio 6
+Patricia Ellen Silva Specht
+Agora faça um programa que imprima o troco para cada nota apresentada na questão anterior.
+
+Obs.: Não é permitido utilizar a operação de subtração.
+*/
+
+import java.util.Scanner;
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    IO.print("Leia a cédula: ");
+    double cedula = sc.nextDouble();
+    double cerveja = 6.00;
+    double troco = cedula % cerveja;
+    IO.println("Seu troco é R$ " + String.format("%.2f", troco));
+    IO.println("Volte sempre!!! E lembre-se: Se beber não dirija!");
+}
