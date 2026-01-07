@@ -10,18 +10,21 @@ public class Exercicios19Repeticao {
 
         do {
             Scanner in = new Scanner(System.in);
-            System.out.println("Escolha entre 1, 2 ou 3: ");
+            System.out.println("Escolha entre 1, 2 ou 3 ou digite 0 para cancelar");
             int numero = in.nextInt();
 
             if (numero == numeroAleatorio) {
                 acertou = true;
                 System.out.println("Parabéns, você acertou!");
+            } else if (numero == 0) {
+                System.out.println("Encerrando");
+                break;
             } else {
                 System.out.println("Tente novamente");
             }
         } while (!acertou);
-
-//Em forma de while:
+//
+//        Em forma de while:
 //        while (!acertou) {
 //            Scanner in = new Scanner(System.in);
 //            System.out.println("Escolha entre 1, 2 ou 3: ");
@@ -32,5 +35,7 @@ public class Exercicios19Repeticao {
 //                System.out.println("Acertou");
 //            } else {
 //                System.out.println("Tente novamente");
+//            }
+//        }
     }
 }

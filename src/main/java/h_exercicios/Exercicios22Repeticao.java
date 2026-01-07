@@ -31,7 +31,6 @@ public class Exercicios22Repeticao {
             System.out.println("Digite o segundo número:");
             int segundo = in.nextInt();
 
-            // Escolha da operação
             switch (opcao) {
                 case "1" -> {
                     System.out.println("Resultado: " + (primeiro + segundo));
@@ -51,7 +50,7 @@ public class Exercicios22Repeticao {
                 }
             }
 
-            System.out.print("\nDeseja realizar outra operação? (s/n): ");
+            System.out.print("Deseja realizar outra operação? (s/n): ");
             String continuar = in.nextLine().trim().toLowerCase();
             if (!continuar.equals("s") && !continuar.equals("sim")) {
                 System.out.println("Encerrando... Até logo!");
