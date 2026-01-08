@@ -1,4 +1,4 @@
-package h_exercicios;
+package b_condicionais.correcoes;
 
 import java.util.Scanner;
 
