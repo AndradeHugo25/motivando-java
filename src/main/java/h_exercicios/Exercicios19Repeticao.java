@@ -23,19 +23,5 @@ public class Exercicios19Repeticao {
                 System.out.println("Tente novamente");
             }
         } while (!acertou);
-//
-//        Em forma de while:
-//        while (!acertou) {
-//            Scanner in = new Scanner(System.in);
-//            System.out.println("Escolha entre 1, 2 ou 3: ");
-//            int numero = in.nextInt();
-//
-//            if (numero == numeroAleatorio) {
-//                acertou = true;
-//                System.out.println("Acertou");
-//            } else {
-//                System.out.println("Tente novamente");
-//            }
-//        }
     }
 }
