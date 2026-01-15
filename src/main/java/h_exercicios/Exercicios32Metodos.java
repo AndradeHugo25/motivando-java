@@ -1,6 +1,5 @@
 package h_exercicios;
 
-
 public class Exercicios32Metodos {
     public static void main(String[] args) throws Exception {
         idadeValida("130");
