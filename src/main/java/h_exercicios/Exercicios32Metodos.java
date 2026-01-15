@@ -3,7 +3,7 @@ package h_exercicios;
 
 public class Exercicios32Metodos {
     public static void main(String[] args) throws Exception {
-        idadeValida("110");
+        idadeValida("130");
     }
 
     public static void idadeValida(String entrada) throws Exception {
@@ -18,7 +18,6 @@ public class Exercicios32Metodos {
             System.out.println("Sua idade é: " + idade + " anos.\n");
         } catch (Exception e) {
             System.out.println(e.getMessage());
-
         }
     }
 }
