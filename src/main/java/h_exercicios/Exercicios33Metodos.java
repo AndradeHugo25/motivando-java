@@ -25,7 +25,7 @@ public class Exercicios33Metodos {
             return true;
         } catch (Exception e) {
             System.out.println(e.getMessage() + "\n");
-            return false; // idade inválida → repete
+            return false;
         }
     }
 }

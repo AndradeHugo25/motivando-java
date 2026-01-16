@@ -2,11 +2,10 @@ package h_exercicios;
 
 public class Exercicios32Metodos {
     public static void main(String[] args) throws Exception {
-        idadeValida("130");
+        idadeValida("121");
     }
 
     public static void idadeValida(String entrada) throws Exception {
-
         try {
             int idade = Integer.parseInt(entrada);
 
