@@ -17,7 +17,7 @@ public class Main {
 //        System.out.println("O sexo do cabrito " + cabritao.getNome() + " é: " + cabritao.getSexo());
 
         //=====================================================================================
-//        Borboleta b1 = new Borboleta("Caterpie do Ash", 'F');
+        Borboleta b1 = new Borboleta("Caterpie do Ash", 'F');
 //        Borboleta b2 = new Borboleta("Metapod do Ash", 'F');
 //        Borboleta b3 = new Borboleta("Butterfree do Ash", 'F');
 //
