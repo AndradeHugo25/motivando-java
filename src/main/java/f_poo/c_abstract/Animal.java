@@ -2,7 +2,7 @@ package f_poo.c_abstract;
 
 public abstract class Animal {
 
-    private String nome;
+    public String nome;
     private int idade;
 
     public Animal() {
