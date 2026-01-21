@@ -13,16 +13,16 @@ public class Main {
 //        System.out.println(cabritao.emitirSom());
 
 //        Borboleta b1 = new Borboleta("Caterpie");
-////        b1.respirar();
-////        System.out.println(b1.emitirSom());
-////
+//        b1.respirar();
+//        System.out.println(b1.emitirSom());
+//
 //        System.out.println(b1);
-////        b1.voar();
+//        b1.voar();
 //
 //        b1.incrementarIdade(1);
 //
 //        System.out.println(b1);
-////        b1.voar();
+//        b1.voar();
 //
 //        b1.incrementarIdade(2);
 //
