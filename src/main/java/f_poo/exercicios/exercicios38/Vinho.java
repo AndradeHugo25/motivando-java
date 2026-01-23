@@ -2,12 +2,12 @@ package f_poo.exercicios.exercicios38;
 
 public class Vinho implements Restaurante.Bebida {
 
-    public String nome = "vinhi";
+    public String nome = "vinho";
     public double preco = 36.90;
 
     @Override
     public void imprimirPreco() {
-        System.out.println("Preço da " + nome + " R$" + preco);
+        System.out.println("Preço do " + nome + " R$" + preco);
     }
 
     @Override

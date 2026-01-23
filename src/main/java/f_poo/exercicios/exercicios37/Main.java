@@ -2,9 +2,9 @@ import f_poo.exercicios.exercicios37.Funcionario;
 
 public static void main(String[] args) {
 
-    Funcionario funcionario1 = new Funcionario("Juliana", 12500, Funcionario.Categoria.INTEGRAL);
-    Funcionario funcionario2 = new Funcionario("Helen", 9500.00, Funcionario.Categoria.MEIOPERIODO);
-    Funcionario funcionario3 = new Funcionario("Pedro", 6750, Funcionario.Categoria.PJ);
+    Funcionario funcionario1 = new Funcionario("Juliana", 15500, Funcionario.Categoria.INTEGRAL);
+    Funcionario funcionario2 = new Funcionario("Helen", 10800.00, Funcionario.Categoria.MEIOPERIODO);
+    Funcionario funcionario3 = new Funcionario("Pedro", 8750, Funcionario.Categoria.PJ);
     Funcionario funcionario4 = new Funcionario("Fellipe", 17000, Funcionario.Categoria.TEMPORARIO);
 
     System.out.println(funcionario1);

@@ -7,7 +7,7 @@ public class Chopp implements Restaurante.Bebida {
 
     @Override
     public void imprimirPreco() {
-        System.out.println("Preço da " + nome + " R$" + preco);
+        System.out.println("Preço do " + nome + " R$" + preco);
     }
 
     @Override
