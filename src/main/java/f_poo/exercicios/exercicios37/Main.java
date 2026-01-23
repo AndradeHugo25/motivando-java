@@ -1,21 +1,27 @@
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import f_poo.exercicios.exercicios37.Funcionario;
 
 public static void main(String[] args) {
 
-//    O intellij sugeriu que o Double mudasse para D maiusculo, queria entender o porque
-    Map<String, Double> nomes = new HashMap<>();
-    nomes.put("Juliana", 4500.00);
-    nomes.put("Hugo", 12000.00);
-    nomes.put("Jeniffer",17000.00 );
+    Funcionario funcionario1 = new Funcionario("Juliana", 12500, Funcionario.Categoria.INTEGRAL);
+    Funcionario funcionario2 = new Funcionario("Helen", 9500.00, Funcionario.Categoria.MEIOPERIODO);
+    Funcionario funcionario3 = new Funcionario("Pedro", 6750, Funcionario.Categoria.PJ);
+    Funcionario funcionario4 = new Funcionario("Fellipe", 17000, Funcionario.Categoria.TEMPORARIO);
 
-    System.out.println(nomes);
+    System.out.println(funcionario1);
+    System.out.println(funcionario2);
+    System.out.println(funcionario3);
+    System.out.println(funcionario4 + "\n");
 
-    for (Map.Entry<String, Double> lista : nomes.entrySet()) {
-        System.out.println("\nFuncionario | Salário: " + lista);
-    }
+    double calculoBonus1 = funcionario1.calculoBonus();
+    System.out.printf("A funcionaria %s recebe de salário %s é contratado na categoria %s e vai receber de bônus R$%s%n", funcionario1.nomeFuncionario, funcionario1.salario, funcionario1.getCategoria(), calculoBonus1);
 
-//    Ele imprimi a lista mas não sei como colocar o tipo de bonus para cada um deles, pedir ajuda, vai virar uma matriz com 3 informações?
-//    Pode ser que dando um add pra cada funcionario funcione mas não sei como juntar as opções
+    double calculoBonus2 = funcionario2.calculoBonus();
+    System.out.printf("A funcionaria %s recebe de salário %s é contratado na categoria %s e vai receber de bônus R$%s%n", funcionario2.nomeFuncionario, funcionario2.salario, funcionario2.getCategoria(), calculoBonus2);
+
+    double calculoBonus3 = funcionario3.calculoBonus();
+    System.out.printf("O funcionario %s recebe de salário %s é contratado na categoria %s e vai receber de bônus R$%s%n", funcionario3.nomeFuncionario, funcionario3.salario, funcionario3.getCategoria(), calculoBonus3);
+
+    double calculoBonus4 = funcionario4.calculoBonus();
+    System.out.printf("O funcionario %s recebe de salário %s é contratado na categoria %s e vai receber de bônus R$%s%n", funcionario4.nomeFuncionario, funcionario4.salario, funcionario4.getCategoria(), calculoBonus4);
+
 }
