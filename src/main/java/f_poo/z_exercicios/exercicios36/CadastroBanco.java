@@ -1,4 +1,4 @@
-package f_poo.exercicios.exercicios36;
+package f_poo.z_exercicios.exercicios36;
 
 public class CadastroBanco {
 

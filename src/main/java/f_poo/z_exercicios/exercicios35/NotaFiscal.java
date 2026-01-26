@@ -1,4 +1,4 @@
-package f_poo.exercicios.exercicios35;
+package f_poo.z_exercicios.exercicios35;
 
 public class NotaFiscal {
 

@@ -1,4 +1,4 @@
-package f_poo.exercicios.exercicios39;
+package f_poo.z_exercicios.exercicios39;
 
 public class Data {
 

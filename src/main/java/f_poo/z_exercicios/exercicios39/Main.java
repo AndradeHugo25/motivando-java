@@ -1,4 +1,4 @@
-package f_poo.exercicios.exercicios39;
+package f_poo.z_exercicios.exercicios39;
 
 public class Main {
 
@@ -11,7 +11,7 @@ public class Main {
         System.out.println(novaData2.imprimirData());
         System.out.println(novaData2.quantoParaFimAno());
 
-        Data novaData3 = new Data(15, 2, 2060);
+        Data novaData3 = new Data(15, 12, 2060);
         System.out.println(novaData3.imprimirData());
         System.out.println(novaData3.quantoParaFimAno());
     }

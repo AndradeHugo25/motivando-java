@@ -1,4 +1,4 @@
-package f_poo.exercicios.exercicios37;
+package f_poo.z_exercicios.exercicios37;
 
 public class Funcionario {
 
