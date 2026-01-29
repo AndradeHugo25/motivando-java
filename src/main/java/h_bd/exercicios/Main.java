@@ -24,7 +24,7 @@ public class Main {
         }
 
         PlaylistRepository playlistRepository = new PlaylistRepository();
-        int atualizarPlaylist = playlistRepository.atualizarPlaylist("nome", "Favoritas", "nome", "Minha Playlist");
+        List<Map<String, Object>> atualizarPlaylist = playlistRepository.atualizarPlaylist("playlist", "nome", "favoritas", "nome", "Minha playlist");
 
         System.out.println(atualizarPlaylist);
     }
