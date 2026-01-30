@@ -1,4 +1,4 @@
-package g_arquivos.Exercicios42;
+package g_arquivos.exercicio41;
 
 import g_arquivos.excel.ManipuladorExcel;
 import org.apache.poi.ss.usermodel.Cell;
