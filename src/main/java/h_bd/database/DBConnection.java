@@ -190,7 +190,13 @@ public class DBConnection {
                 .map(k -> k + " = :where_" + k)
                 .reduce((a, b) -> a + " AND " + b)
                 .orElse("");
-        String sql = String.format("UPDATE %s.%s SET %s WHERE %s", schema, nomeTabela, setClause, whereClause);
+
+        String sql;
+        if (schema == null) {
+            sql = String.format("UPDATE %s SET %s WHERE %s", nomeTabela, setClause, whereClause);
+        } else {
+            sql = String.format("UPDATE %s.%s SET %s WHERE %s", schema, nomeTabela, setClause, whereClause);
+        }
         logger.info("[BANCO] Executando query: {} | Parâmetros WHERE: {} | Parâmetros SET: {}", sql, whereParams, updateParams);
         return jdbi.withHandle(handle -> {
             var update = handle.createUpdate(sql);
