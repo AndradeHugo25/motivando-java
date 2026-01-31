@@ -5,6 +5,7 @@ import org.jdbi.v3.core.Jdbi;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -48,9 +49,9 @@ public class DBConnection {
         logger.info("[BANCO] Conectando base de dados no ambiente {} e base {}...", env, base);
 
         //Em um projeto concreto, esses valores podem vir do config.properties
-        String url = "jdbc:postgresql://ep-broad-water-acyrhc0w-pooler.sa-east-1.aws.neon.tech:5432/neondb?sslmode=require&channel_binding=require";
+        String url = "jdbc:postgresql://ep-broad-water-acyrhc0w-pooler.sa-east-1.aws.neon.tech:5432/neondb?sslmode=require";
         String usuario = "neondb_owner";
-        String senha = "npg_ah6WOUB8XAVP";
+        String senha = "npg_g20wsjRuaUpL";
         schema = "public";
 
         if (url != null) {
@@ -59,6 +60,16 @@ public class DBConnection {
         } else {
             logger.info("[BANCO] Configuração default de banco inexistente. Prosseguindo com os testes...");
         }
+    }
+
+    public void connectSQLiteDB(String dbFilePath) {
+        File file = new File(dbFilePath);
+        String absolutePath = file.getAbsolutePath();
+        String url = "jdbc:sqlite:" + absolutePath;
+        logger.info("[BANCO] Conectando banco SQLite local: {}", url);
+
+        jdbi = Jdbi.create(url);
+        logger.info("[BANCO] Banco SQLite conectado: {}", dbFilePath);
     }
 
     public void disconnectDB() {
@@ -75,7 +86,14 @@ public class DBConnection {
                 .map(k -> k + " = :" + k)
                 .reduce((a, b) -> a + " AND " + b)
                 .orElse("");
-        String sql = String.format("SELECT * FROM %s.%s WHERE %s", schema, nomeTabela, whereClause);
+
+        String sql;
+        if (schema == null) {
+            sql = String.format("SELECT * FROM %s WHERE %s", nomeTabela, whereClause);
+        } else {
+            sql = String.format("SELECT * FROM %s.%s WHERE %s", schema, nomeTabela, whereClause);
+        }
+
         logger.info("[BANCO] Executando query: {} | Parâmetros: {}", sql, whereParams);
         return jdbi.withHandle(handle ->
                 handle.createQuery(sql)
@@ -172,7 +190,13 @@ public class DBConnection {
                 .map(k -> k + " = :where_" + k)
                 .reduce((a, b) -> a + " AND " + b)
                 .orElse("");
-        String sql = String.format("UPDATE %s.%s SET %s WHERE %s", schema, nomeTabela, setClause, whereClause);
+
+        String sql;
+        if (schema == null) {
+            sql = String.format("UPDATE %s SET %s WHERE %s", nomeTabela, setClause, whereClause);
+        } else {
+            sql = String.format("UPDATE %s.%s SET %s WHERE %s", schema, nomeTabela, setClause, whereClause);
+        }
         logger.info("[BANCO] Executando query: {} | Parâmetros WHERE: {} | Parâmetros SET: {}", sql, whereParams, updateParams);
         return jdbi.withHandle(handle -> {
             var update = handle.createUpdate(sql);
