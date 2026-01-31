@@ -2,7 +2,7 @@ package a_basico.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicioSete {
+public class ExercicioSeteA {
     public static void main(String[] args) {
 //        Faça um programa que leia a largura e altura de uma parede, calcule e mostre a área a ser pintada e a quantidade de tinta necessária para o serviço, sabendo que cada litro de tinta pinta uma área de 2m².
 //

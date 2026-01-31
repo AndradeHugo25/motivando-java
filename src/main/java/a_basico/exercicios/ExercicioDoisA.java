@@ -2,7 +2,7 @@ package a_basico.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicioDois {
+public class ExercicioDoisA {
     public static void main(String[] args) {
 //        Faça um programa que leia um número inteiro e mostre o seu antecessor e seu sucessor.
 //

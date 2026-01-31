@@ -2,7 +2,7 @@ package a_basico.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicioTres {
+public class ExercicioTresA {
     public static void main(String[] args) {
 //        Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na tela sua média na disciplina.
 //

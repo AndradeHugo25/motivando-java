@@ -2,7 +2,7 @@ package a_basico.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicioUm {
+public class ExercicioUmA {
     public static void main(String[] args){
 //        Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas:
 //
