@@ -2,7 +2,7 @@ package c_repeticao.execicios;
 
 import java.util.Scanner;
 
-public class exercicio22 {
+public class Exercicio22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int menu = 0;

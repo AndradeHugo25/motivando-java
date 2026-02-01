@@ -3,7 +3,7 @@ package c_repeticao.execicios;
 
 import java.util.Scanner;
 
-public class exercicio21 {
+public class Exercicio21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numero;

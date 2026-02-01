@@ -1,6 +1,6 @@
 package c_repeticao.execicios;
 
-public class exercicio18 {
+public class Exercicio18 {
     public static void main(String[] args) {
 
         for (int numero = 100; numero <= 200; numero++) {
