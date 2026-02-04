@@ -17,7 +17,7 @@ public class ExercicioVinteQuatro {
 
         while (loop){
             if (numeroDesejado < resultado) {
-                System.out.println("Número desejado menor que o menor número triangular.");
+                System.out.println("Número desejado não é um número triangular.");
                 loop = false;
             }
             else if (numeroDesejado == resultado) {
