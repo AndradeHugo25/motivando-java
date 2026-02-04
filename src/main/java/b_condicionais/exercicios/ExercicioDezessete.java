@@ -2,7 +2,7 @@ package b_condicionais.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicioDezB {
+public class ExercicioDezessete {
     public static void main(String[] args) {
         //  implemente uma calculadora com as quatro operações básicas
 

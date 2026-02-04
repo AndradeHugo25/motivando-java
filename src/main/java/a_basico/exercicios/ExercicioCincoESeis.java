@@ -1,6 +1,6 @@
 package a_basico.exercicios;
 
-public class ExercicioCincoESeisA {
+public class ExercicioCincoESeis {
     public static void main(String[] args) {
 //        Em um bar, uma cerveja em lata custa R$6,00. Crie um programa que imprima quantas cervejas o cliente pode comprar com notas de R$10,00, R$20,00, R$50,00 e R$100,00.
 

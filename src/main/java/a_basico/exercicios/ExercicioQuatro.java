@@ -2,7 +2,7 @@ package a_basico.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicioQuatroA {
+public class ExercicioQuatro {
     public static void main(String[] args) {
 //        Faça um programa que leia a quantia em dinheiro que uma pessoa tem na carteira (em R$) e mostre quantos dólares ela pode comprar.
 //

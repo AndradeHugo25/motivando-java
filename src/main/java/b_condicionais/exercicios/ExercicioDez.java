@@ -3,7 +3,7 @@ package b_condicionais.exercicios;
 import java.util.Scanner;
 import java.util.random.RandomGenerator;
 
-public class ExercicioTresB {
+public class ExercicioDez {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

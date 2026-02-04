@@ -2,7 +2,7 @@ package b_condicionais.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicioCincoB {
+public class ExercicioDoze {
     public static void main(String[] args) {
         String escolhaPC = gerarEscolhaAleatoria();
 

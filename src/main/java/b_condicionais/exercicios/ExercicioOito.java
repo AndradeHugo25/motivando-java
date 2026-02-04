@@ -2,7 +2,7 @@ package b_condicionais.exercicios;
 
 import java.util.Scanner;
 
-public class ExercicioUmB {
+public class ExercicioOito {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Informe um número e irei dizer se é par ou ímpar: ");
