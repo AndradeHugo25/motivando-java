@@ -23,7 +23,7 @@ public class ManipuladorExcel {
         Sheet sheet = obterAbaPorNome(caminhoArquivo, nomeAba);
         Row row = sheet.getRow(linha);
         Cell cell = row.getCell(coluna);
-        return cell.toString();
+        return formatarValorCelula(cell);
     }
 
     public static void lerAbas(String caminhoArquivo) {
