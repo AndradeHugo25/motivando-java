@@ -10,7 +10,7 @@ public class Main {
         System.out.println("\n");
 
         String valor = ManipuladorExcel.obterValorCelula(caminhoArquivo, "Jogadores", 2, 1);
-        System.out.println("Nome da pessoa de ID 1 => " + valor);
+        System.out.println("Nome da pessoa de ID 2 => " + valor);
 
         valor = ManipuladorExcel.obterValorCelula(caminhoArquivo, "Jogadores", 2, 3);
         System.out.println("Profissão da Vanessa ===> " + valor);
