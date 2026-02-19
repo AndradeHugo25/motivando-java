@@ -6,10 +6,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-public class AtualizacaoPlayList {
+public class PlayListRepository {
     private final DBConnection db1Connection;
 
-    public AtualizacaoPlayList() {
+    public PlayListRepository() {
         this.db1Connection = new DBConnection();
         this.db1Connection.connectSQLiteDB("src/main/resources/auto-qa.db");
     }
@@ -42,6 +42,8 @@ public class AtualizacaoPlayList {
         try (Connection conn = db1Connection.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql);
              ResultSet rs = stmt.executeQuery()) {
+
+
             if (rs.next()) {
                 nomePlaylist = rs.getString("nome");
             }

@@ -1,10 +1,10 @@
 package h_bd.exercicios.exercicio43;
 
-import h_bd.repository.AtualizacaoPlayList;
+import h_bd.repository.PlayListRepository;
 
 public class AtualizandoGeneroMusical {
     public static void main(String[] args) {
-        AtualizacaoPlayList repo = new AtualizacaoPlayList();
+        PlayListRepository repo = new PlayListRepository();
         String novoNome = repo.atualizarPlaylistIncrementandoNumeroPorNome();
         if (novoNome != null) {
             System.out.println("Nome atualizado para: " + novoNome);
