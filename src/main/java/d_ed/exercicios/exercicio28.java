@@ -35,7 +35,6 @@ public class exercicio28 {
         } while (!nome.equals("final"));
 
         vaiPagar(pessoas);
-        bebeu = "";
 
         do{
             System.out.println("Aline bebeu? (S) ou (N): ");
