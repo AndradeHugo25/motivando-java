@@ -19,16 +19,12 @@ public class exercicio27 {
             usuario.put(matricula, nome);
         }
 
+        System.out.println("antes");
         System.out.println(usuario.entrySet());
+        System.out.println("printando matriculas de quem começa com A...");
 
-        for (Map.Entry<String, String> mapAux : usuario.entrySet()){
-
-            String nomeComA = mapAux.getValue();
-            String matriculaNomeComA = mapAux.getKey();
-
-            if (nomeComA.startsWith("A") || nomeComA.startsWith("a")){
-                System.out.println(matriculaNomeComA);
-            }
-        }
+        usuario.entrySet().stream()
+                .filter(pessoa -> pessoa.getValue().toLowerCase().startsWith("a"))
+                .forEach(pessoa -> System.out.println(pessoa.getKey()));
     }
 }
