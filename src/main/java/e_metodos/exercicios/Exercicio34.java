@@ -1,6 +1,6 @@
 package e_metodos.exercicios;
 
-public class exercicio34 {
+public class Exercicio34 {
     public static void main(String[] args) {
         System.out.println("------------------------------------------");
         System.out.println(calculadoraPreco(-10,12.5));

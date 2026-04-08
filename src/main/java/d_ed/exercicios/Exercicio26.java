@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class exercicio26 {
+public class Exercicio26 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

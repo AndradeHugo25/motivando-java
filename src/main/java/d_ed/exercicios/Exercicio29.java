@@ -2,7 +2,7 @@ package d_ed.exercicios;
 
 import java.util.Scanner;
 
-public class exercicio29 {
+public class Exercicio29 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Informe o seu nome: ");

@@ -6,7 +6,7 @@ import java.util.Scanner;
 // usei o gemini nesta tarefa pois estava com dificuldade de entender a lógica do try-catch e de visualizar como seria um try-catch em loop
 // mas consegui entender e desenvolver
 
-public class exercicio33 {
+public class Exercicio33 {
     public static void main(String[] args) throws Exception{
         idadeValida();
     }

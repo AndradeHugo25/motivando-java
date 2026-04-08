@@ -1,6 +1,6 @@
 package e_metodos.exercicios;
 
-public class exercicio30 {
+public class Exercicio30 {
     public static void main(String[] args) {
         helloWorldNome("Eduardo");
     }

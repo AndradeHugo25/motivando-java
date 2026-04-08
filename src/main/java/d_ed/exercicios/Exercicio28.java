@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class exercicio28 {
+public class Exercicio28 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String nome = "";
