@@ -1,4 +1,4 @@
-package f_poo.exercicios.exercicio35;
+package f_poo.g_exercicios.exercicio35;
 
 public class Main {
     public static void main(String[] args) {
