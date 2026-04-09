@@ -29,10 +29,9 @@ public class Conta {
         double deposito;
         System.out.println("Deseja depositar quanto? ");
         deposito = in.nextDouble();
-        if (deposito<0){
+        if (deposito<0) {
             System.out.println("Deposito negativo? Voce quer sacar!");
             sacar();
-            return;
         } else {
             System.out.println("Depositando $" + deposito);
             this.saldo = this.saldo + deposito;
@@ -40,14 +39,13 @@ public class Conta {
         }
      }
 
-     public void sacar(){
+     public void sacar() {
         double saque;
         System.out.println("Quanto deseja sacar? ");
         saque = in.nextDouble();
-        if (saque<0){
+        if (saque<0) {
             System.out.println("Saque negativo? Voce quer depositar!");
             depositar();
-            return;
         } else {
             try {
                 if ((saque + 1) > this.saldo){
@@ -65,7 +63,7 @@ public class Conta {
         }
      }
 
-     public static Conta criarConta(){
+     public static Conta criarConta() {
 
         String insereSaldo = " ";
         int numeroConta = 0;
@@ -77,10 +75,10 @@ public class Conta {
             System.out.println("Você deseja inserir saldo ou não? [S] ou [N]");
             insereSaldo = in.nextLine().trim().toLowerCase();
 
-            if(!insereSaldo.equals("s") && !insereSaldo.equals("n")) {
+            if (!insereSaldo.equals("s") && !insereSaldo.equals("n")) {
                 throw new Exception ("Informe apenas [S] ou [N] !!!!");
 
-            } else{
+            } else {
 
                 System.out.println("Informe o numero da conta: ");
                 numeroConta = in.nextInt();
@@ -89,28 +87,31 @@ public class Conta {
                 System.out.println("Insira o nome do titular da conta: ");
                 nomeTitularConta = in.nextLine().trim().toUpperCase();
 
-                if (insereSaldo.equals("s")){
+                if (insereSaldo.equals("s")) {
 
                     System.out.println("Insira o saldo da conta: ");
                     saldo = in.nextDouble();
 
-                    if (saldo<0){
+                    if (saldo<0) {
                         System.out.println("Não é possível criar conta com saldo negativo.");
-                        System.out.println("O saldo será ZERO.");
-                        saldo = 0;
+                        System.out.println("Não será inserido saldo.");
+                        return new Conta(numeroConta, nomeTitularConta);
+                    } else {
+                        return new Conta(numeroConta, nomeTitularConta, saldo);
                     }
-                    return new Conta(numeroConta, nomeTitularConta, saldo);
                 } else {
                     return new Conta(numeroConta, nomeTitularConta);
                 }
             }
         } catch (InputMismatchException erroInputInesperado) {
             System.out.println("Você inseriu o tipo de dado errado.");
+
         }
         catch (Exception erroDigitacao) {
             System.out.println(erroDigitacao.getMessage());
+
         }
-         return null;
+        return null;
      }
 
     public int getNumeroConta() {
