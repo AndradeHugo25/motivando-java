@@ -3,7 +3,8 @@ package f_poo.g_exercicios.exercicio38;
 public abstract class Bebida {
 
     private double preco;
-    private static TipoBebida tipoBebida;
+    private TipoBebida tipoBebida;
+
     protected enum TipoBebida {
         CERVEJA, CHOPP, VINHO, REFRIGERANTE
     }
@@ -25,7 +26,7 @@ public abstract class Bebida {
     }
 
     protected void setTipoBebida(TipoBebida tipoBebida) {
-        Bebida.tipoBebida = tipoBebida;
+        this.tipoBebida = tipoBebida;
     }
 
     protected void imprimirPreco(){
