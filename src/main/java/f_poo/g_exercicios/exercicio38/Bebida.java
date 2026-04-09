@@ -3,7 +3,7 @@ package f_poo.g_exercicios.exercicio38;
 public abstract class Bebida {
 
     private double preco;
-    private TipoBebida tipoBebida;
+    private static TipoBebida tipoBebida;
     protected enum TipoBebida {
         CERVEJA, CHOPP, VINHO, REFRIGERANTE
     }
@@ -12,27 +12,27 @@ public abstract class Bebida {
         this.preco = preco;
     }
 
-    public double getPreco() {
+    protected double getPreco() {
         return preco;
     }
 
-    public void setPreco(double preco) {
+    protected void setPreco(double preco) {
         this.preco = preco;
     }
 
-    public TipoBebida getTipoBebida() {
+    protected TipoBebida getTipoBebida() {
         return tipoBebida;
     }
 
-    public void setTipoBebida(TipoBebida tipoBebida) {
-        this.tipoBebida = tipoBebida;
+    protected void setTipoBebida(TipoBebida tipoBebida) {
+        Bebida.tipoBebida = tipoBebida;
     }
 
-    public void imprimirPreco(){
-        System.out.println("Preço do(a) " + this.tipoBebida.toString().toLowerCase() + ": R$ " + this.preco);
+    protected void imprimirPreco(){
+        System.out.println("Preço do(a) " + tipoBebida.toString().toLowerCase() + ": R$ " + this.preco);
     }
 
     protected void servir(String mesa){
-        System.out.println("Servindo " + this.tipoBebida.toString().toLowerCase() + " na " + mesa);
+        System.out.println("Servindo " + tipoBebida.toString().toLowerCase() + " na " + mesa);
     }
 }
