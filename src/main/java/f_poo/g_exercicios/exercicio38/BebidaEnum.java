@@ -7,7 +7,7 @@ public enum BebidaEnum {
     VINHO(45),
     CHOPP(9.99);
 
-    private double preco;
+    private final double preco;
 
     BebidaEnum(double preco) {
         this.preco = preco;
