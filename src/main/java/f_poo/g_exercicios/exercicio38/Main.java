@@ -18,5 +18,21 @@ public class Main {
         vinho.imprimirPreco();
         vinho.servir("mesa 18");
 
+        BebidaEnum cerva = BebidaEnum.CERVEJA;
+        cerva.imprimirPreco();
+        cerva.servir("mesa do Hugo");
+
+        BebidaEnum refriDois = BebidaEnum.REFRIGERANTE;
+        refriDois.imprimirPreco();
+        refriDois.servir("mesa do Leo");
+
+        BebidaEnum sucoUva = BebidaEnum.VINHO;
+        sucoUva.imprimirPreco();
+        sucoUva.servir("mesa 105");
+
+        BebidaEnum chop = BebidaEnum.CHOPP;
+        chop.imprimirPreco();
+        chop.servir("mesa do fundo");
+
     }
 }
