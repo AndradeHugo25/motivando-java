@@ -15,8 +15,7 @@ public class Main {
         Map<String, String> jogadoras = new HashMap<>();
         int cont = 0;
         String sexo = " ";
-        int i;
-        for (i = 0; i <= planilha.getLastRowNum(); i++) {
+        for (int i = 0; i <= planilha.getLastRowNum(); i++) {
             sexo = ManipuladorExcel.obterValorCelula(caminhoArquivo, "Jogadores", i, 2).trim();
             if (sexo.equals("F")) {
                 cont++;
