@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println("O time tem " + jogadoras.size() + " jogadoras.");
         System.out.println("São elas: ");
-        jogadoras.entrySet().stream()
-                .forEach(n -> System.out.println(n.getValue()));
+        jogadoras.values().stream()
+                .forEach(n -> System.out.println(n));
     }
 }
