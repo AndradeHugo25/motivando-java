@@ -25,6 +25,6 @@ public class Main {
 
         int saldoGols = totalGolsFeitos - totalGolsSofridos;
 
-        System.out.println("O saldo de gols do time na partida foi de " + saldoGols);
+        System.out.println("\n"+ "-".repeat(40) +"\nO saldo de gols do time na partida foi de " + saldoGols);
     }
 }
