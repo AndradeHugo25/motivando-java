@@ -28,7 +28,7 @@ public class Main {
             }
 
             if (!nomeExiste){
-                throw new NoSuchElementException("\nNOME NÃO EXISTE!");
+                throw new NoSuchElementException("\n" + nome + " - NOME NÃO EXISTE!");
             }
 
             AlbumRepository albumRepository = new AlbumRepository();
