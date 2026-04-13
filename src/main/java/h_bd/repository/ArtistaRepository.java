@@ -38,4 +38,8 @@ public class ArtistaRepository {
                 .getFirst()
                 .get("nome").toString();
     }
+
+    public List<Map<String, Object>> selecionarTodosArtistas() {
+        return conexaoBanco.selectNoWhere(NOME_TABELA);
+    }
 }

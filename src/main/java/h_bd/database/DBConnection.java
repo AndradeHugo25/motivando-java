@@ -77,6 +77,22 @@ public class DBConnection {
         logger.info("[BANCO] Base de dados desconectada");
     }
 
+    public List<Map<String, Object>> selectNoWhere(String nomeTabela){
+        String sql;
+        if (schema == null) {
+            sql = String.format("SELECT * FROM %s", nomeTabela);
+        } else {
+            sql = String.format("SELECT * FROM %s.%s", schema, nomeTabela);
+        }
+
+        return jdbi.withHandle(handle ->
+                handle.createQuery(sql)
+                        .setQueryTimeout(tempoEspera)
+                        .mapToMap()
+                        .list()
+        );
+    }
+
     public List<Map<String, Object>> select(String nomeTabela, String nomeColuna, Object valor) {
         return select(nomeTabela, Map.of(nomeColuna, valor));
     }
