@@ -13,7 +13,7 @@ public class Main {
         ArtistaRepository artistaRepository = new ArtistaRepository();
         List<Map<String, Object>> artistasAll = artistaRepository.selecionarTodosArtistas();
 
-        String nome = "Djavan1";
+        String nome = "Djavan";
         int idArtista = 0;
         boolean nomeExiste = false;
 
@@ -21,7 +21,7 @@ public class Main {
             for (Map<String, Object> aux : artistasAll) {
                 if (aux.values().toArray()[1].equals(nome)){
                     idArtista = Integer.parseInt(aux.values().toArray()[0].toString());
-                    System.out.println("\nId do Djavan é " + idArtista + "\n");
+                    System.out.println("\nId do " + nome + " é " + idArtista + "\n");
                     nomeExiste = true;
                     break;
                 }
@@ -35,10 +35,10 @@ public class Main {
             List<Map<String, Object>> albuns = albumRepository.selecionarAlbumPorArtistaId(idArtista);
 
             if (albuns.size() == 1){
-                System.out.println("\n\nO album do Djavan é: ");
+                System.out.println("\n\nO album do " + nome + " é: ");
                 albuns.stream().forEach(n -> System.out.println(n.values().toArray()[1]));
             } else {
-                System.out.println("\n\nOs albuns do Djavan são: ");
+                System.out.println("\n\nOs albuns do " + nome + " são: ");
                 albuns.stream().forEach(n -> System.out.println(n.values().toArray()[1]));
             }
 
