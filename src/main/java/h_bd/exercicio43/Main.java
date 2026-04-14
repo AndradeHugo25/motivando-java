@@ -1,6 +1,5 @@
-package h_bd.exercicios43;
+package h_bd.exercicio43;
 
-import h_bd.repository.AlbumRepository;
 import h_bd.repository.PlaylistRepository;
 
 import java.util.*;
@@ -13,15 +12,17 @@ public class Main {
         Map<String, Object> playlistDepoisAlterar = new HashMap<String, Object>();
 
         String nomePlaylist = "Minha playlist 0";
-        int idPlaylist = 0;
+        int playlistId = 0;
         boolean existePlaylist = false;
+        boolean playlistPodeSomarUm = false;
 
         try{
             for (Map<String, Object> aux : playlistAll) {
                 if (aux.values().toArray()[1].toString().equals(nomePlaylist)){
-                    idPlaylist = Integer.parseInt(aux.values().toArray()[0].toString());
-                    System.out.println("\nId de " + aux.values().toArray()[1].toString() + " é " + idPlaylist + "\n");
+                    System.out.println("\nAntes:\n");
+                    System.out.println(aux.entrySet());
                     existePlaylist = true;
+                    playlistId = Integer.parseInt(aux.values().toArray()[0].toString());
                     playlistAntesAlterar = aux;
                     break;
                 }
@@ -32,9 +33,6 @@ public class Main {
             }
 
             String[] palavras = playlistAntesAlterar.values().toArray()[1].toString().split(" ");
-            for (String palavra : palavras){
-                System.out.println(palavra + " ");
-            }
 
             int novo = 0;
 
@@ -42,28 +40,33 @@ public class Main {
                 try {
                     novo = Integer.parseInt(palavras[i]) + 1;
                     palavras[i] = String.valueOf(novo);
-                } catch (NumberFormatException ignored){
+                    playlistPodeSomarUm = true;
+                } catch (NumberFormatException erroCaracterInvalido){
+                    System.out.println(palavras[i] + " - ESTA PALAVRA NÃO PODE VIRAR UM INT!");
                 }
             }
 
+            if (!playlistPodeSomarUm){
+                throw new Exception("\n" + nomePlaylist + " - ESTE NOME NÃO TEM NENHUMA PALAVRA QUE PODE VIRAR INT");
+            }
 
             StringBuilder novoNome = new StringBuilder();
             for (String palavra : palavras){
-                System.out.println(palavra + " ");
                 novoNome.append(palavra).append(" ");
             }
             novoNome = new StringBuilder(novoNome.toString().trim());
 
-            playlistDepoisAlterar = playlistAntesAlterar;
-            playlistDepoisAlterar.remove(String.valueOf(idPlaylist));
+            playlistDepoisAlterar.put("id", playlistId);
+            playlistDepoisAlterar.put("nome", novoNome);
 
+            playlistRepository.updatePlaylist("nome", playlistAntesAlterar, playlistDepoisAlterar);
 
-            playlistDepoisAlterar.put("[id, nome]", <String.valueOf(idPlaylist),novoNome>);
-//            playlistAntesAlterar.values().toArray()[1].toString() = novoNome;
+            playlistAll = playlistRepository.selecionarTodasPlaylists();
+            System.out.println("\nDepois:\n");
+            playlistAll.stream()
+                    .forEach(n -> System.out.println(n.entrySet()));
 
-//            playlistRepository.updatePlaylist("nome", "Minha playlist");
-
-        } catch (NoSuchElementException erroNomeNaoExiste){
+        } catch (Exception erroNomeNaoExiste){
             System.out.println(erroNomeNaoExiste.getMessage());
             throw new NoSuchElementException();
         }
