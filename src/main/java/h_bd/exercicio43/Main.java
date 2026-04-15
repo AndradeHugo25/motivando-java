@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         PlaylistRepository playlistRepository = new PlaylistRepository();
         List<Map<String, Object>> playlistAll = playlistRepository.selecionarTodasPlaylists();
-        Map<String, Object> playlistAntesAlterar = new HashMap<String, Object>();
+        Map<String, Object> playlistAntesAlterar = new HashMap<>();
         Map<String, Object> playlistDepoisAlterar = new HashMap<String, Object>();
 
         String nomePlaylist = "Minha playlist 0";
@@ -20,7 +20,7 @@ public class Main {
             for (Map<String, Object> aux : playlistAll) {
                 if (aux.values().toArray()[1].toString().equals(nomePlaylist)){
                     System.out.println("\nAntes:\n");
-                    System.out.println(aux.entrySet());
+                    System.out.println(aux.entrySet() + "\n");
                     existePlaylist = true;
                     playlistId = Integer.parseInt(aux.values().toArray()[0].toString());
                     playlistAntesAlterar = aux;
@@ -38,7 +38,9 @@ public class Main {
 
             for (int i = 0; i<palavras.length; i++){
                 try {
-                    novo = Integer.parseInt(palavras[i]) + 1;
+                    novo = Integer.parseInt(palavras[i]);
+                    System.out.println(novo + " - ISSO PODE SER UM INT!");
+                    novo = novo + 1;
                     palavras[i] = String.valueOf(novo);
                     playlistPodeSomarUm = true;
                 } catch (NumberFormatException erroCaracterInvalido){
