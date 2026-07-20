@@ -1,4 +1,4 @@
-package a_basico.Exercícios;
+package a_basico.Exercicios;
 
 public class Exercicio5Basico {
 

@@ -1,4 +1,4 @@
-package a_basico.Exercícios;
+package a_basico.Exercicios;
 
 import java.util.Scanner;
 
@@ -8,11 +8,11 @@ public class Exercicio7Basico {
 
         int tinta = 2;
 
-        Scanner input = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("Digite a largura da parede: ");
-        int numero1 = input.nextInt();
+        int numero1 = in.nextInt();
         System.out.println("Digite a altura da parede: ");
-        int numero2 = input.nextInt();
+        int numero2 = in.nextInt();
         System.out.println("A área a ser pintada é: " + (numero1 * numero2));
         System.out.println("Você vai precisar de " + (numero1 * numero2) / tinta + " litros de tinta");
     }
