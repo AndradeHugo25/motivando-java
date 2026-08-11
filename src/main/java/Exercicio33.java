@@ -33,19 +33,13 @@ public class Exercicio33 {
 
                 idadeValida = true;
 
-
             } catch (IllegalArgumentException e) {
 
                 System.out.println(e.getMessage());
 
                 System.out.println("Tente uma nova idade: ");
-
             }
-
         }
-
-        scanner.close();
-
     }
 
 }

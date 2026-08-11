@@ -7,7 +7,6 @@ public class Exercicio31 {
     public static double calcularMedia(double temp1, double temp2) {
 
         return (temp1 + temp2) / 2;
-
     }
 
     public static void main(String[] args) {
